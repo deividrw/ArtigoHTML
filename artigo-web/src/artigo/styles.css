@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#inicio {
+  height: 100%;
+}
+
+#dark-mode {
+  position: relative;
+  margin: 0;
+  top: 50px;
+  display: none;
+  z-index: 1;
+}
+
+.mode-toggle {
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  border-radius: 20px;
+  background-image: url("../assets/imagens/ideia.png");
+  background-size: 35px;
+  background-repeat: no-repeat;
+  top: 100px;
+  right: 650px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.icon-lampada {
+position: relative;
+font-family: Arial;
+font-weight: bold ;
+font-size: 15px;
+display: flex;
+color: blue;
+right:20px ;
+top: 45px;
+
+}
+
+/* .mode-toggle div{
+    width: 12px;
+    height: 12px;
+    background: deeppink;
+    border-radius: 50%;
+    top:2px;
+}  */
+
+#principal {
+  position: absolute;
+  font-family: Arial;
+  background: #fff;
+  color: #444;
+}
+
+#dark-mode:checked ~ #principal {
+  background: #444;
+  color: #fff;
+}
+
+#container {
+  border: 1px solid black;
+  margin: 180px;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+#btn {
+  filter: invert(100%);
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+h2 {
+  padding: 3rem 3rem;
+}
+
+p,
+a {
+  padding: 0 3rem;
+}
+
+.key {
+  padding: 0 3rem;
+}
+
+.cabecalho {
+  display: block;
+  position: relative;
+  text-align: end;
+  padding-right: 25px;
+}
+
+img {
+  margin: auto;
+  display: block;
+  width: 50%;
+}
+
+.imgEx {
+  display: block;
+  text-align: center;
+}
+
+.justifica {
+  display: flex;
+  position: relative;
+  margin-left: 37rem;
+  word-wrap: break-word;
+}
+
+.refe {
+  color: blue;
+  text-decoration: underline;
+}
